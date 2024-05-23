@@ -1,0 +1,25 @@
+#product_detail strong{
+    font-size: 30px;
+}
+#detail{
+    display: flex;
+}
+
+#detail div {
+    padding: 0;
+    flex-grow: 0;
+}
+#detail div label{
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#detail div label.selected{
+    border: 1px solid #4fbfa8;
+    color: #4fbfa8;
+}
+#detail div label:hover{
+    background-color: #f0f0f0;
+    cursor: pointer;
+}

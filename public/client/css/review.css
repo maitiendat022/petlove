@@ -1,0 +1,34 @@
+.rating label {
+    font-size: 1.5em;
+    padding: 0.1em;
+    float: right;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.rating i {
+    text-shadow: 0 0 5px #4fbfa8;
+}
+.rating input:checked ~ label,
+.rating input:hover ~ label {
+    color: #4fbfa8;
+}
+.rating label:hover,
+.rating label:hover ~ label {
+    color: #4fbfa8;
+}
+.feedback {
+    background-color: #eef9f7 ;
+    max-width: 90%;
+    padding: 0.8rem;
+}
+#review{
+    padding-left: 0;
+}
+#review pre {
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre-wrap;
+    font-size:0.9rem;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,11 @@
+.category_children {
+    display: none;
+}
+#content .card.sidebar-menu ul.nav.category-menu .category_children li a{
+    font-weight: normal;
+    margin-left: 8px;
+}
+
+#content .card.sidebar-menu ul.nav.category-menu .parent-menu:hover .category_children{
+    display: block;
+}

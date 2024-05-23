@@ -1,0 +1,73 @@
+.output-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.output-item span {
+    margin-right: 10px;
+    background-color:  rgb(252, 214, 253);
+    border-radius: 10px;
+    padding: 5px;
+}
+.output-item input {
+    order: +1;
+}
+
+.delete-button {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+    order: +2;
+    margin-left: 10px;
+}
+
+.add-version {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.version-container {
+    display: none;
+    margin-top: 10px;
+}
+
+.version-input {
+    margin-bottom: 10px;
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+#detailForm{
+    display: none;
+    padding: 10px;
+    border: 1px solid;
+}
+#review pre {
+    overflow-x: auto;
+    max-width: 100%;
+    white-space: pre-wrap;
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+#review .comment{
+    border-bottom: 1px solid rgb(227, 221, 221);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#review textarea{
+    width: 100%;
+    padding: 10px;
+}
